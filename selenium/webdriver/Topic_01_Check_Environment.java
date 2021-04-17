@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class Topic_01_Check_Environment {
-   private WebDriver driver = new ChromeDriver();
+    private WebDriver driver = new ChromeDriver();
 
     @BeforeClass
     public void beforeClass() {
